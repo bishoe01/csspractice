@@ -26,10 +26,10 @@
     border-radius: 50%;
 
 }
-
 .imgfile:hover {
+    border: 2px solid rgb(72, 167, 72);
     animation-name: img_ani;
-    animation-duration: 600ms;
+    animation-duration: 400ms;
     animation-iteration-count: 2;
     animation-direction: alternate;
 
@@ -39,13 +39,10 @@
     font-size: 20px;
     text-align: center;
     letter-spacing: 2px;
-
 }
-
-
 @keyframes img_ani {
     from {
-        transform: scale(0.8);
+        transform: scale(1);
     }
 
     to {
@@ -54,20 +51,40 @@
 }
 
 
-.lorem {
-    display: flex;
+.description {
     text-align: center;
-    padding: 20px 0px;
+    background-color: cadetblue;
+    border-radius: 1.5rem;
+    border: 1px solid yellow;
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 5px 5px yellowgreen;
+}
+.description p{
     animation-name: box_ani;
-    justify-content: center;
-    animation-duration: 1s;
+    animation-duration: 500ms;
+}
+.container__box{
+    background-color: cadetblue;
+    width: 200px;
+    margin: 4px 30px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 
+/* Keyframes */
 @keyframes box_ani {
     from {
-        margin-left: -1000px;
+        margin-left: -100%;
     }
-
     to {
         justify-content: center;
     }
