@@ -3,13 +3,43 @@
     margin: 0px;
 }
 
+a:link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+/* nav */
+.nav {
+    
+    background-color: #eee;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav li{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+/* main */
 .container{
     display: flex;
     width: 100%;
 }
-
+.container__right{
+    width: 20%;
+}
 .container__left{
-    width: 75%;
+    width: 80%;
     height: 40vh;
     background-color: black;
     color: white;
@@ -48,6 +78,7 @@
 .right__product{
     width: 100%;
     height: 40vh;
+    padding: 10px;
 }
 
 
