@@ -1,7 +1,22 @@
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: sans;
+    src: url(NotoSansKR-Regular.otf);
+}
 * {
     box-sizing: border-box;
     margin: 0px;
+    font-family: roboto;
 }
+
+h1{
+    font-family: sans;
+}
+
 span,h4{
     color: white;
 }
