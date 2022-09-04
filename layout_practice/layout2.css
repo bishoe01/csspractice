@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0px;
+}
+span,h4{
     color: white;
 }
 
@@ -22,6 +24,7 @@
     font-size: 40px;
     margin-top: 100px;
     text-align: center;
+    color: white;
 }
 
 .main__description {
@@ -69,4 +72,108 @@
     font-size: 20px;
     margin: 20px 0px;
     
+}
+/* form section */
+
+.contact{
+    background-color: black;
+    padding:30px;
+    
+}
+
+.form__section{
+    border: 1px solid black;
+    font-size: 35px;
+    position: relative;
+    background-color: #eee;
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    flex-direction: column;
+    height: 600px;
+    padding: 20px 40px;
+}
+h1,h2,h3,h4,h5{
+    color: black;
+    font-weight: 320;
+}
+h2{
+    font-weight: 500;
+}
+.email__section{
+    font-size: 27px;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: 50px;
+}
+.form__input{
+    width: 100%;
+    height: 7vh;
+    left: 0;
+    right: 0;
+    margin:auto;
+    
+}
+.name__seciton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 5vh;
+    margin-bottom: 20px;
+}
+.left__section,.right__section{
+    padding: 20px 0px;
+    width: 50%;
+    font-size: 27px;
+}
+.left__section{
+    padding-right: 10px;
+}
+.right__section{
+    padding-left: 10px;
+}
+
+.first__name,.last__name{
+    width: 100%;
+}
+.message__section{
+    margin-top: 50px;
+    font-size: 27px;
+}
+.message__section textarea{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.submit__section{
+    display: flex;
+    justify-content: space-between;
+}
+.btn__send{
+    width: 20%;
+    height: 40px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    box-shadow: gray;
+}
+.checkbox__subscribe{
+    display: flex;
+    align-items: center;
+
+}
+.checkbox{
+    background-color: rgb(55, 53, 53);
+}
+.subscribe{
+    color: black;
+    font-size: 15px;
+    margin-left: 5px;
 }
